@@ -34,3 +34,39 @@
 - Good for Web apps supported by large teams who need high degree of control over app behaviour.
 
 ## Web Forms
+
+### Advantages 
+- Supports event model
+	-- State over HTTP
+	-- provies dozens of events etc
+- Uses Page Controller Pattern that adds functionality to individual pages.
+- Uses View State or Server-based forms, which can make managing state Information easier.
+- Small teams + Rapid app dev
+- Tightly integrated (less complex), less code
+
+## Front Controller Pattern
+- Centralized request ahndling mechanism
+- Solves decentralization problem by channeling all requests through a single controller.
+- Controller usually implemented in 2 parts: 
+	-- A handler (handles requests such as GET, POST etc)
+	-- A hierarchy of commands (executes the requests)
+
+## Page Controller Pattern
+- Controller determining and invokes the requested actions on the model, and determines the correct view to use. 
+- PageController: handles HTTP requests and updates model and decides on the corresponding view. 
+
+## IIS (Internet Information Service)
+- flexible, secure, manageable Web server
+- scalable, open architecture
+
+## IIS Express
+- lightweight, self-contained version of IIS optimized for developers
+- To develop and test websites
+
+## Entity Framework
+- ORM
+- Supports Code First (Create model objects by writing classes, can then have the DB created on the fly).
+- Connection String/Web.config file (DB info)
+
+
+
