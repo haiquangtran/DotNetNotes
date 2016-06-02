@@ -19,7 +19,7 @@
 ### Controller = Input Logic
 - Handles user interaction, works with model, and reflects views to render (Handles requests, retrieves models, specifies view templates etc).
 - Acts as a middleman between View and Model.
-	-- Handles and responds to user input & interaction between View and Model
+  - Handles and responds to user input & interaction between View and Model
 
 ### Features
 - DI, Url-mapping, supports REST, SEO, Mark-up, auth, testability, cahcing etc. (Look it up for more).
@@ -37,8 +37,8 @@
 
 ### Advantages 
 - Supports event model
-	-- State over HTTP
-	-- provies dozens of events etc
+  - State over HTTP
+  - provies dozens of events etc
 - Uses Page Controller Pattern that adds functionality to individual pages.
 - Uses View State or Server-based forms, which can make managing state Information easier.
 - Small teams + Rapid app dev
@@ -48,8 +48,8 @@
 - Centralized request ahndling mechanism
 - Solves decentralization problem by channeling all requests through a single controller.
 - Controller usually implemented in 2 parts: 
-	-- A handler (handles requests such as GET, POST etc)
-	-- A hierarchy of commands (executes the requests)
+  - A handler (handles requests such as GET, POST etc)
+  - A hierarchy of commands (executes the requests)
 
 ## Page Controller Pattern
 - Controller determining and invokes the requested actions on the model, and determines the correct view to use. 
@@ -95,10 +95,10 @@
 
 ## TFS (Team Foundation Server)
 - Contains:
-	-- Source control
-	-- Management tools (agile etc)
-	-- CI
-	-- Analytics
+  - Source control
+  - Management tools (agile etc)
+  - CI
+  - Analytics
 
 ## .dll file (Extension)
 - Dynamic Link Libraries
