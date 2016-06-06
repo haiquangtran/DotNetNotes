@@ -107,36 +107,48 @@
 - Are Microsoft's implementation of shared libraries. 
 - Contains: functions, classes, variables, resources (images, files, icons etc), that an EXE uses or other DLL uses.
 
-# ASP.NET MVC Views and UI Rendering 
+## ASP.NET MVC Views and UI Rendering 
 - By default, the MVC framework uses custom types (ViewPage, ViewMasterPage, and ViewUserControl) that inherit from the existing ASP.NET page (.aspx), master page (.master), and user control (.ascx) types as views.
 
-## View Pages
+### View Pages
 - Are an instance of ViewPage class.
 - The ViewPage class defines a ViewData property that returns a ViewDataDictionary Object (containing the data the view should display).
 - The MVC framework uses URL routing to determine which controller action to invoke, and the controller action then devices which views to render.
 - The @ Page directive contains the Inherits attribute, which defines the relationship between the application and the view. (Allows you to perform actions from the application code).
 - .aspx files
 
-## Master-Page Views
+### Master-Page Views
 - Can use master pages to define a consistent layout and structure.
 - In a typical site, the master page is bound to a content page in the @ Page directive of the content page. 
 - Can also use dynamic master pages (assign master page at run time) when you call the View method of the Controller class. 
 - .master files
 
-## Partial Views
+### Partial Views
 - enables you to define a view that will be rendered inside a parent view
 - Implemented as ASP.NET user controlers (.ascx).
 - When instantiated, it has it's own copy of ViewDataDictionary object that is available to the parent view (Similar to scopes in angular). 
   - Can access the data of the parent view 
   - However, if partial view updates the data, those updates only affect the partial view's ViewData Object. (The parent view's data is not changed).
 
-## Helper classes and Members for rendering views
+### Helper classes and Members for rendering views
 - MVC framework includes the following helpers:
   - Form helpers for form elements (i.e radio buttons, list boxes, select buttons, password fields etc)
   - URL helpers which let you generate URLs for routing
   - HTML helpers, include functions to manage HTML strings, such as Encode, Decode, AttributeEncode, and RenderPartial
 
-# Class Members in C#
+## Class Members in C#
 - Are members of a class that represent the data and behaviour of a class
 - Are members declaed in the class and all those (excluding constructors and destructors) declared in all classes in its inheritance hierachy. 
 - Examples: Constants, Fields, Methods, Properties, Operators etc.
+
+## ?? Operator (C# null-coalescing operator)
+- Returns left-hand operand if the operand is not null; otherwise it returns the right hand operand
+- You can also chain the operator so that you can do a bunch of null comparisons
+- "If whatever is to the left is not null, use that, otherwise use what's to the right"
+
+## Model State
+- Property of a controller, and can be accessed from those classes that inehrit from Mvc.Controller.
+- Purpose: Store value submitted to server, and to store validation errors associated with the values. 
+- ModelState represents a collection of name and value pairs that were submitted to the server during a POST
+- Contains a collection of error messages for each value submitted. 
+- Only has names, values, and errors. Doesn't know anything about any model classes
