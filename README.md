@@ -147,8 +147,12 @@
 - "If whatever is to the left is not null, use that, otherwise use what's to the right"
 
 ## Model State
-- Property of a controller, and can be accessed from those classes that inehrit from Mvc.Controller.
+- Property of a controller, and can be accessed from those classes that inherit from Mvc.Controller.
 - Purpose: Store value submitted to server, and to store validation errors associated with the values. 
 - ModelState represents a collection of name and value pairs that were submitted to the server during a POST
 - Contains a collection of error messages for each value submitted. 
 - Only has names, values, and errors. Doesn't know anything about any model classes
+
+## AutoMapper
+- External component that helps in creating a mapping between source and destination model types.
+- Once mapping is created then source model object can be converted to a destination model object.
