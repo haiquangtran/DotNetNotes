@@ -154,5 +154,6 @@
 - Only has names, values, and errors. Doesn't know anything about any model classes
 
 ## AutoMapper
-- External component that helps in creating a mapping between source and destination model types.
+- Mapper between two objects. 
+- External component that helps in creating a mapping between source and destination model types (Transfers the properties if they are the same, or you can use the ForMember method).
 - Once mapping is created then source model object can be converted to a destination model object.
