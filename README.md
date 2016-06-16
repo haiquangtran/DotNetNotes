@@ -157,3 +157,18 @@
 - Mapper between two objects. 
 - External component that helps in creating a mapping between source and destination model types (Transfers the properties if they are the same, or you can use the ForMember method).
 - Once mapping is created then source model object can be converted to a destination model object.
+
+## ASP.NET Razor Views
+- Razor is a markup syntax for adding server-based code to web pages (Similar to ASP and PHP)
+- Has power of traditional ASP.NET markup, but is easier to learn, and easier to use
+- Supports C# and VB programming languages
+- @ is used to define Razor code
+
+### Main Razor Syntax Rules for C#
+- @{...} specifies Razor code blocks
+- Inline expressions (variables and functions) start with @
+- Code statements end with ;
+- Variables = var
+- Strings are enclosed in ""
+
+
