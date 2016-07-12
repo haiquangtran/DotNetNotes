@@ -11,6 +11,11 @@
 - Close all tabs but the current one = Alt + -, A
 - Close tab= Ctrl + F4 
 - Move up and down = Ctrl + up/down
+- Start of document = Ctrl + Home
+- End of document = Ctrl + End
+- Matching brace = Ctrl + ] 
+- Next reference = Ctrl + Shift + 1
+- Prev reference = Ctrl + Shift + 2
 - Stop = Shift+F5 
 - Start = F5 
 - File/Member Navigation = Ctrl + ,
