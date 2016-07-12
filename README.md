@@ -16,6 +16,7 @@
 - Matching brace = Ctrl + ] 
 - Next reference = Ctrl + Shift + 1
 - Prev reference = Ctrl + Shift + 2
+- Navigate methods = Ctrl + F12, Tab, Tab
 - Stop = Shift+F5 
 - Start = F5 
 - File/Member Navigation = Ctrl + ,
@@ -34,4 +35,5 @@
 - Go to defintion = F12
 - Rename = Ctrl + R, R
 - Clear bookmarks = Ctrl K + Ctrl L
+
 
