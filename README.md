@@ -36,4 +36,4 @@
 - Rename = Ctrl + R, R
 - Clear bookmarks = Ctrl K + Ctrl L
 
-
+http://www.hanselman.com/blog/VisualStudiosMostUsefulAndUnderusedTips.aspx
